@@ -1,0 +1,34 @@
+ 磁碟區 C 中的磁碟是 SYSTEM
+ 磁碟區序號:  366C-0A6D
+
+ C:\Users\User\Desktop\LwM2Mexample-test\Release 的目錄
+
+2020/09/11  下午 01:30    <DIR>          .
+2020/09/11  下午 01:30    <DIR>          ..
+2020/09/10  下午 02:25                56 cpuusage.txt
+2020/02/06  下午 08:13           108,032 jansson.dll
+2020/09/08  下午 02:35           386,560 libdocker.dll
+2020/07/03  上午 11:30            12,288 libdtls.dll
+2018/06/28  上午 08:11             3,998 libdtls.lib
+2020/01/06  下午 02:22            25,600 libtinycbor.dll
+2019/12/24  下午 02:39             6,358 libtinycbor.lib
+2020/09/08  下午 02:30            17,920 libutils.dll
+2020/09/08  上午 11:11            38,912 lwClientSource.dll
+2020/09/08  下午 02:30           216,064 lwCoreSource.dll
+2020/09/11  下午 12:16            11,264 LwM2Mexample.exe
+2020/09/11  下午 12:16           560,128 LwM2Mexample.pdb
+2020/08/19  下午 07:14             7,168 LwM2Mexample_bg.exe
+2020/08/20  上午 11:00             7,168 LwM2Mexample_fg.exe
+2020/08/26  上午 10:44            20,480 LwSensorExample.dll
+2019/11/19  下午 09:53           827,728 msvcr100.dll
+2010/03/18  上午 09:15         1,498,960 msvcr100d.dll
+2019/10/07  上午 01:13         3,460,752 notepad++.exe
+2012/05/27  下午 03:11           119,888 pthreadGC2.dll
+2012/05/27  下午 03:11           121,953 pthreadGCE2.dll
+2012/05/27  上午 01:36            55,808 pthreadVC2.dll
+2012/05/27  下午 02:48            61,952 pthreadVCE2.dll
+2012/05/27  下午 02:48            57,344 pthreadVSE2.dll
+2020/09/11  上午 11:15                17 Ret.txt
+2020/09/11  下午 01:30                 0 test.txt
+              25 個檔案       7,626,398 位元組
+               2 個目錄  63,847,686,144 位元組可用

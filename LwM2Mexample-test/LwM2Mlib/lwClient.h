@@ -1,0 +1,1 @@
+int start_LwM2M(char* url, char* endpointName, char* isBootstrap, char* pskIdentity, char* pskSecurityHex);

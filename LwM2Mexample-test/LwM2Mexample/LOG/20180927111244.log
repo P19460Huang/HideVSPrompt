@@ -1,0 +1,15 @@
+[11:12:44] [14416] [I] LwM2M Start...
+[11:12:44] [14416] [I]  coap with Securiy
+[11:12:44] [14416] [I] DataModel Path 	(../Plugin_Data/LWM2M_DataModel.dat)
+[11:12:44] [14416] [I]  gBS_SERVER_IP     (124.9.14.86)
+[11:12:44] [14416] [I]  gBS_SERVER_PORT   (5682)
+[11:12:44] [14416] [I]  gDEVICE_NAME      (III005000)
+[11:12:44] [14416] [I]  isDTLS            (1)
+[11:12:44] [14416] [I]  gPskIdentity      (III005000)
+[11:12:44] [14416] [I]  gPskPassword      (zûÉ®@k×µLj0–yI±0)
+[11:12:44] [14416] [I]  gPskPasswordLength(16)
+[11:12:44] [14416] [I] *************** Bootstrap Server Procedure ***************
+[11:12:44] [14416] [I] [genWaitInterval] This time is number 1 and the timeout is (8)
+[11:12:44] [14416] [D] Initialising Winsock...
+[11:12:44] [14416] [D] Initialised.
+[11:12:49] [14416] [E] Connect to BS Server Fail! (124.9.14.86, 5682)

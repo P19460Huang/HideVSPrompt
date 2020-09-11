@@ -1,0 +1,47 @@
+﻿已經開始建置於 2020/9/11 下午 03:17:47。
+     1>節點 2 (build 目標) 上的專案 "C:\Users\User\Desktop\LwM2Mexample-test\LwM2Mexample\LwM2Mexample.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\LwM2Mexample.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\LwM2Mexample.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\LwM2Mexample.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LwM2Mexample.cpp
+         LwM2Mexample.cpp
+     1>LwM2Mexample.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>LwM2Mexample.cpp(55): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>LwM2Mexample.cpp(64): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>LwM2Mexample.cpp(74): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>LwM2Mexample.cpp(129): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>LwM2Mexample.cpp(147): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>LwM2Mexample.cpp(174): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(498) : 請參閱 'mbstowcs' 的宣告
+     1>LwM2Mexample.cpp(215): warning C4800: 'BOOL' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>LwM2Mexample.cpp(222): warning C4800: 'BOOL' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>LwM2Mexample.cpp(230): warning C4800: 'BOOL' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>LwM2Mexample.cpp(246): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h(981) : 請參閱 'wcscat' 的宣告
+     1>LwM2Mexample.cpp(241): warning C4101: 'cWindowsDirectory' : 未參考的區域變數
+     1>LwM2Mexample.cpp(288): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 請參閱 'strcpy' 的宣告
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\LwM2Mexample-test\Release\LwM2Mexample.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../LwM2Mlib lwClientSource.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\LwM2Mexample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Desktop\LwM2Mexample-test\Release\LwM2Mexample.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\LwM2Mexample-test\Release\LwM2Mexample.lib" /MACHINE:X86 Release\LwM2Mexample.obj
+         Release\stdafx.obj
+         正在產生程式碼
+         已完成程式碼產生
+         LwM2Mexample.vcxproj -> C:\Users\User\Desktop\LwM2Mexample-test\Release\LwM2Mexample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Desktop\LwM2Mexample-test\Release\LwM2Mexample.exe;#1" /manifest Release\LwM2Mexample.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\LwM2Mexample.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\LwM2Mexample.lastbuildstate"。
+     1>專案 "C:\Users\User\Desktop\LwM2Mexample-test\LwM2Mexample\LwM2Mexample.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.70
